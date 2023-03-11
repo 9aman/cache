@@ -4,19 +4,6 @@ package evictionpolicy;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
-@Getter
-class Node<Key> {
-    Key value;
-    Node<Key> prev;
-    Node<Key>  next;
-
-    public Node(Key value, Node<Key> prev, Node<Key> next) {
-        this.value = value;
-        this.prev = prev;
-        this.next = next;
-    }
-}
-
 public class DoublyLinkedList<Key> {
     private Node<Key> dummyHead;
     private Node<Key> dummyTail;
@@ -28,7 +15,7 @@ public class DoublyLinkedList<Key> {
         dummyTail.prev = dummyHead;
     }
     @NotNull
-    private void addNodeAtEnd(Node<Key> node){
+    public void addNodeAtEnd(Node<Key> node){
         dummyTail.prev.next = node;
         node.prev = dummyTail.prev;
         node.next = dummyTail;

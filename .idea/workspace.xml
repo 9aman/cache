@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b4a91f-cc88-4333-98b6-4288bb39dd74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cache/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/evictionpolicy/DoublyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cache/CacheFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/CacheFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/EvictionPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/EvictionPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/LRUEviction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/LRUEviction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/StorageFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/StorageFullException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/Storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,16 +53,114 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="exceptions" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cache" />
+      <recent name="evictionpolicy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CacheTest">
+    <configuration name="CacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cache" />
+      <option name="MAIN_CLASS_NAME" value="cache.CacheTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cache" />
+      <option name="MAIN_CLASS_NAME" value="cache.CacheTest" />
+      <option name="METHOD_NAME" value="put" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.testIfCacheCapacityIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cache" />
+      <option name="MAIN_CLASS_NAME" value="cache.CacheTest" />
+      <option name="METHOD_NAME" value="testIfCacheCapacityIsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.testPutGetAndEviction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cache" />
+      <option name="MAIN_CLASS_NAME" value="cache.CacheTest" />
+      <option name="METHOD_NAME" value="testPutGetAndEviction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evictionpolicy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="evictionpolicy" />
+      <option name="MAIN_CLASS_NAME" value="evictionpolicy.DoublyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CacheTest" />
+        <item itemvalue="JUnit.CacheTest.testIfCacheCapacityIsNegative" />
+        <item itemvalue="JUnit.CacheTest.testPutGetAndEviction" />
+        <item itemvalue="JUnit.CacheTest.put" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,5 +172,16 @@
       <updated>1678285077413</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cache$CacheTest_testPutGetAndEviction.ic" NAME="CacheTest.testPutGetAndEviction Coverage Results" MODIFIED="1678536199171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cache.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cache$DoublyLinkedListTest.ic" NAME="DoublyLinkedListTest Coverage Results" MODIFIED="1678535368555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>evictionpolicy.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cache$DoublyLinkedListTest_addElementAtEnd.ic" NAME="DoublyLinkedListTest.addElementAtEnd Coverage Results" MODIFIED="1678534342527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>evictionpolicy.*</FILTER>
+    </SUITE>
   </component>
 </project>
