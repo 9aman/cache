@@ -5,15 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b4a91f-cc88-4333-98b6-4288bb39dd74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cache/CacheFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/CacheFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/EvictionPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/EvictionPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evictionpolicy/LRUEviction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evictionpolicy/LRUEviction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/StorageFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/StorageFullException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/Storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,7 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2MjdlJpfG9M3hQrTs3yalMJiBkt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,9 +55,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exceptions" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
